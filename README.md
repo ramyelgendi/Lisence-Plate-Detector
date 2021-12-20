@@ -18,6 +18,9 @@ Dataset: 433 images of cars showing their license plates from different countrie
 The accuracy of the localization system is 89 percent. In most cases, it places a rectangle correctly over the license plate to be moved on to the OCR part of character detection. This is very competitive compared to other solutions, the highest of which are in the 70s or early 80s in terms of percentage accuracy.
 The accuracy of our recognition system is 50 percent. This is very good compared to the fact that we ran the OCR on the output of our first CNN, which wasn't 100 percent accurate. Some of the cropped images sent to the OCR section had a fraction of the plate and some didn't have them at all. Also, some images were taken from very far away, so after getting cropped, they were so pixelated that a human wouldn't be able to recognize the characters.
 
+## Dataset Link:
+Kaggle: faridrizqis/anpr-easyocr
+
 ## Conclusion
 In conclusion, we believe we reached very good results, which are also competitive compared to other existing solutions. It was very interesting to research what other people have reached in this field and was an overall very interesting project. Viewing a machine learning problem such as the one in study was very eye-opening, because it showed us how machine learning is truly integrated in every corner of our lives. Our future work would include making the system also work for other languages, or any languages, not just English. Also, we could apply it to moving pictures, or videos, not just still images.
 ## References
